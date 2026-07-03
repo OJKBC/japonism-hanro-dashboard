@@ -97,9 +97,12 @@ Googleスプレッドシートは現時点で未作成のため、`fetch_manual.
 - **GitHub Pages に確定**（ユーザー選択）。仕様書第9章の推奨（Cloudflare Pages + Access）ではなく、
   手軽さを優先。**URLを知っていれば誰でも閲覧できる公開サイトになる**点は選択時に説明済み。
   緩和策として `<meta name="robots" content="noindex, nofollow">` を設定済み（検索エンジンには載せない）。
-- デプロイは `update.yml` 内で actions/deploy-pages を使用。GITHUB_TOKEN によるボットのプッシュは
-  他のワークフローをトリガーしないため、収集→コミット→デプロイを同一ワークフローで行う。
-  ユーザー自身のコードプッシュ時は収集をスキップしてデプロイのみ実行。
+- デプロイは `update.yml` 内で収集→コミット→公開を同一ワークフローで行う。
+  ユーザー自身のコードプッシュ時は収集をスキップして公開のみ実行。
+- **2026-07-04追記**: actions/deploy-pages（workflow方式）が初回成功以降、コンテンツ非依存で
+  `deployment_failed` を連続で返したため（GitHub側キューで即時失敗・10分後の再試行も失敗）、
+  **gh-pagesブランチ配信方式（Source: Deploy from a branch）に変更**。site/ を gh-pages ブランチへ
+  force pushする方式で、切替後は安定して配信されている。
 
 ## 12. イベントの業種違い除外ルール追加（2026-07-03 ユーザーフィードバック）
 

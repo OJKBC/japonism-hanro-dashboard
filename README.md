@@ -44,7 +44,8 @@ py -3 run_all.py          # データ収集 → site/data/data.json 更新
 **セットアップ状況（2026-07-03 完了済み）:**
 - リポジトリ: https://github.com/OJKBC/japonism-hanro-dashboard
 - 公開サイト: https://ojkbc.github.io/japonism-hanro-dashboard/
-- Workflow permissions（Read and write）・Pages（Source: GitHub Actions）設定済み
+- Workflow permissions（Read and write）・Pages（Source: Deploy from a branch / gh-pages）設定済み
+- 公開の実体はワークフローが `site/` を gh-pages ブランチへ push する方式です
 
 ローカルで変更したら `git push` するだけで自動デプロイされます。
 
