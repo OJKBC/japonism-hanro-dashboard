@@ -209,4 +209,5 @@ main {
   .site-header h1 { font-size: 18px; }
   .tab { padding: 8px 14px; font-size: 13.5px; }
   .deadline { margin-left: 0; width: 100%; }
+  .meta > div { white-space: normal; }
 }

@@ -1,0 +1,102 @@
+{
+ "source": "curated",
+ "fetched_at": "2026-07-03T23:36:59+09:00",
+ "items": [
+  {
+   "id": "curated:gift-show-autumn-2026",
+   "category": "exhibition",
+   "title": "第102回 東京インターナショナル・ギフト・ショー秋2026",
+   "organizer": "ビジネスガイド社",
+   "url": "https://www.giftshow.co.jp/tigs/102tigs/",
+   "region": "東京都",
+   "start_date": "2026-09-02",
+   "end_date": "2026-09-04",
+   "deadline": null,
+   "location": "東京ビッグサイト",
+   "amount": null,
+   "tags": [
+    "BtoB",
+    "ギフト",
+    "雑貨",
+    "伝統と革新"
+   ],
+   "summary": "日本最大級のパーソナルギフトと生活雑貨の国際見本市。第102回のテーマは「伝統と革新」。ギフト・雑貨バイヤーとの商談の場。",
+   "status": "open",
+   "source": "curated",
+   "fetched_at": "2026-07-03T23:36:59+09:00",
+   "_match_text": "第102回 東京インターナショナル・ギフト・ショー秋2026 日本最大級のパーソナルギフトと生活雑貨の国際見本市。第102回のテーマは「伝統と革新」。ギフト・雑貨バイヤーとの商談の場。 BtoB ギフト 雑貨 伝統と革新"
+  },
+  {
+   "id": "curated:lifestyle-week-autumn-2026",
+   "category": "exhibition",
+   "title": "ライフスタイルWeek【秋】2026（国際雑貨EXPO・インバウンド向けグッズEXPO等）",
+   "organizer": "RX Japan",
+   "url": "https://www.lifestyle-expo.jp/autumn/ja-jp.html",
+   "region": "東京都",
+   "start_date": "2026-10-07",
+   "end_date": "2026-10-09",
+   "deadline": null,
+   "location": "東京ビッグサイト",
+   "amount": null,
+   "tags": [
+    "BtoB",
+    "雑貨",
+    "インバウンド",
+    "ライフスタイル"
+   ],
+   "summary": "雑貨・インテリア・美容などライフスタイル商材の商談展。インバウンド向けグッズEXPOを含み、出展申込受付中（2026-07-03時点）。",
+   "status": "open",
+   "source": "curated",
+   "fetched_at": "2026-07-03T23:36:59+09:00",
+   "_match_text": "ライフスタイルWeek【秋】2026（国際雑貨EXPO・インバウンド向けグッズEXPO等） 雑貨・インテリア・美容などライフスタイル商材の商談展。インバウンド向けグッズEXPOを含み、出展申込受付中（2026-07-03時点）。 BtoB 雑貨 インバウンド ライフスタイル"
+  },
+  {
+   "id": "curated:tourism-expo-japan-2026",
+   "category": "exhibition",
+   "title": "ツーリズムEXPOジャパン2026",
+   "organizer": "日本観光振興協会・JATA・JNTO",
+   "url": "https://www.t-expo.jp/",
+   "region": "東京都",
+   "start_date": "2026-09-24",
+   "end_date": "2026-09-27",
+   "deadline": null,
+   "location": "東京ビッグサイト",
+   "amount": null,
+   "tags": [
+    "BtoB",
+    "観光",
+    "インバウンド",
+    "お土産"
+   ],
+   "summary": "世界最大級の観光イベント。業界日（9/24・25）に商談可。※出展申込は満枠のため受付終了・取消待ちのみ（2026-07-03時点）。",
+   "status": "open",
+   "source": "curated",
+   "fetched_at": "2026-07-03T23:36:59+09:00",
+   "_match_text": "ツーリズムEXPOジャパン2026 世界最大級の観光イベント。業界日（9/24・25）に商談可。※出展申込は満枠のため受付終了・取消待ちのみ（2026-07-03時点）。 BtoB 観光 インバウンド お土産"
+  },
+  {
+   "id": "curated:cosme-week-tokyo-2027",
+   "category": "exhibition",
+   "title": "COSME Week【東京】2027（[国際]化粧品展 ほか）",
+   "organizer": "RX Japan",
+   "url": "https://www.cosme-week.jp/tokyo/ja-jp.html",
+   "region": "東京都",
+   "start_date": "2027-02-17",
+   "end_date": "2027-02-19",
+   "deadline": null,
+   "location": "東京ビッグサイト",
+   "amount": null,
+   "tags": [
+    "BtoB",
+    "化粧品",
+    "コスメ",
+    "美容"
+   ],
+   "summary": "日本最大級の化粧品総合展。[国際]化粧品展には化粧品・美容雑貨の最終製品が集まり、小売・EC・免税店等のバイヤーが来場。",
+   "status": "open",
+   "source": "curated",
+   "fetched_at": "2026-07-03T23:36:59+09:00",
+   "_match_text": "COSME Week【東京】2027（[国際]化粧品展 ほか） 日本最大級の化粧品総合展。[国際]化粧品展には化粧品・美容雑貨の最終製品が集まり、小売・EC・免税店等のバイヤーが来場。 BtoB 化粧品 コスメ 美容"
+  }
+ ]
+}
