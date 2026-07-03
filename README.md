@@ -35,18 +35,29 @@ py -3 run_all.py          # データ収集 → site/data/data.json 更新
 - `site/index.html` をダブルクリック（`data.js` 経由で表示されます）
 - または `py -3 -m http.server -d site 8000` → http://localhost:8000
 
-## 自動更新（GitHub Actions）
+## 自動更新と公開（GitHub Actions + GitHub Pages）
 
 `.github/workflows/update.yml` が毎日 06:00 JST に `run_all.py` を実行し、
-変更があれば自動コミットします。手動実行は GitHub の Actions タブ →「Run workflow」。
+変更を自動コミットしたうえで GitHub Pages にデプロイします。
+手動実行は GitHub の Actions タブ →「Run workflow」。
 
 **セットアップ手順（初回のみ）:**
-1. GitHubに新しいリポジトリを作成（Private推奨）
-2. このフォルダをプッシュ
+1. GitHubに新しいリポジトリを作成
+   （※GitHub PagesはFreeプランでは**Publicリポジトリのみ**対応です）
+2. このフォルダをプッシュ:
+   ```powershell
+   git remote add origin https://github.com/<アカウント名>/<リポジトリ名>.git
+   git push -u origin master
+   ```
 3. リポジトリの Settings → Actions → General → Workflow permissions を
    「Read and write permissions」に設定
-4. ホスティング（Cloudflare Pages等）をリポジトリに接続し、
-   ビルド設定は「フレームワークなし / 出力ディレクトリ: `site`」とする
+4. Settings → Pages → Source を「**GitHub Actions**」に設定
+5. Actions タブから「データ更新とサイト公開」を一度手動実行 →
+   `https://<アカウント名>.github.io/<リポジトリ名>/` で閲覧できます
+
+※公開URLになるため、URLを知っていれば誰でも閲覧できます
+（検索エンジンには載らないよう noindex 設定済み）。
+閲覧制限が必要になったら Cloudflare Pages + Access への移行を検討してください。
 
 ## 手動で案件を追加する
 

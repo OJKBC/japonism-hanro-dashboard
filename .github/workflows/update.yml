@@ -1,12 +1,20 @@
-name: データ更新（毎日 06:00 JST）
+name: データ更新とサイト公開
 
 on:
   schedule:
     - cron: "0 21 * * *"  # UTC 21:00 = JST 06:00
   workflow_dispatch:
+  push:
+    branches: [master, main]
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -22,9 +30,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 収集・統合・data.json 更新
+        # push（コード変更）時はスキップし、日次実行と手動実行のみ収集する
+        if: github.event_name != 'push'
         run: python run_all.py
 
       - name: 変更があればコミット
+        if: github.event_name != 'push'
         run: |
           git config user.name "japonism-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -35,3 +46,21 @@ jobs:
             git commit -m "データ自動更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
             git push
           fi
+
+      # ボットのプッシュは他のワークフローをトリガーしないため、
+      # 同じワークフロー内で GitHub Pages へデプロイする
+      - name: Pages 用にアップロード
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: GitHub Pages へデプロイ
+        id: deployment
+        uses: actions/deploy-pages@v4
