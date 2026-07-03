@@ -9,8 +9,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages-update
@@ -47,20 +45,14 @@ jobs:
             git push
           fi
 
-      # ボットのプッシュは他のワークフローをトリガーしないため、
-      # 同じワークフロー内で GitHub Pages へデプロイする
-      - name: Pages 用にアップロード
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    needs: update
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: GitHub Pages へデプロイ
-        id: deployment
-        uses: actions/deploy-pages@v4
+      # actions/deploy-pages が連続失敗したため、gh-pages ブランチ配信方式を採用
+      # （Pages側の設定は Source: Deploy from a branch / gh-pages / root）
+      - name: gh-pages ブランチへ公開
+        run: |
+          cd site
+          git init -b gh-pages
+          git config user.name "japonism-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "サイト公開 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M JST')"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
