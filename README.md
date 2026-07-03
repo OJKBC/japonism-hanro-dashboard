@@ -41,19 +41,12 @@ py -3 run_all.py          # データ収集 → site/data/data.json 更新
 変更を自動コミットしたうえで GitHub Pages にデプロイします。
 手動実行は GitHub の Actions タブ →「Run workflow」。
 
-**セットアップ手順（初回のみ）:**
-1. GitHubに新しいリポジトリを作成
-   （※GitHub PagesはFreeプランでは**Publicリポジトリのみ**対応です）
-2. このフォルダをプッシュ:
-   ```powershell
-   git remote add origin https://github.com/<アカウント名>/<リポジトリ名>.git
-   git push -u origin master
-   ```
-3. リポジトリの Settings → Actions → General → Workflow permissions を
-   「Read and write permissions」に設定
-4. Settings → Pages → Source を「**GitHub Actions**」に設定
-5. Actions タブから「データ更新とサイト公開」を一度手動実行 →
-   `https://<アカウント名>.github.io/<リポジトリ名>/` で閲覧できます
+**セットアップ状況（2026-07-03 完了済み）:**
+- リポジトリ: https://github.com/OJKBC/japonism-hanro-dashboard
+- 公開サイト: https://ojkbc.github.io/japonism-hanro-dashboard/
+- Workflow permissions（Read and write）・Pages（Source: GitHub Actions）設定済み
+
+ローカルで変更したら `git push` するだけで自動デプロイされます。
 
 ※公開URLになるため、URLを知っていれば誰でも閲覧できます
 （検索エンジンには載らないよう noindex 設定済み）。
