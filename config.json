@@ -1,0 +1,31 @@
+{
+  "jgrants": {
+    "keywords": [
+      "販路開拓",
+      "販路拡大",
+      "展示会",
+      "商談会",
+      "海外展開",
+      "インバウンド",
+      "観光",
+      "越境EC",
+      "輸出",
+      "ブランディング",
+      "化粧品",
+      "雑貨",
+      "伝統工芸",
+      "クラフト",
+      "ギフト",
+      "土産",
+      "免税"
+    ],
+    "request_interval_sec": 1.0
+  },
+  "jetro": {
+    "request_interval_sec": 3.0
+  },
+  "manual_sheet_csv_url": "",
+  "filter": {
+    "min_score": 1
+  }
+}
