@@ -59,6 +59,35 @@ EVENT_OFF_WORDS_EN = [  # 英字タイトル用（小文字部分一致）
 ]
 EVENT_OFF_EXEMPT_SOURCES = {"manual", "curated"}
 
+# 地域限定の判定: 本社=東京都新宿区・製造元(OEM)=福岡のため、
+# 「特定地域の企業限定」案件は東京・福岡関連のみ掲載する。
+# 開催地が他県・海外でも、応募企業を限定しないものは掲載対象。
+ALLOWED_COMPANY_REGIONS = ("全国", "東京", "福岡", "海外",
+                           "関東・甲信越", "九州・沖縄")
+RESTRICT_PATTERNS = [
+    re.compile(r"([一-龥]{1,4}(?:県|府|都|道))産"),                       # ●●県産
+    re.compile(r"([一-龥]{1,4}(?:県|府|都|市|区))内(?:の)?(?:会員)?(?:中小)?(?:企業|事業者)"),
+    re.compile(r"【([^】]{2,14}(?:県|府|市|町|村))】"),                    # 【●●県】【●●市】
+    re.compile(r"([一-龥]{1,6}(?:県|府|市|町|村|区))(?:の|内の?)(?:企業|事業者)(?:限定|のみ|対象)"),
+]
+
+
+def region_allowed(item: dict) -> bool:
+    """東京・福岡以外の「企業限定」案件を除外する。"""
+    if item.get("source") == "manual":
+        return True
+    if item.get("category") == "subsidy":
+        # jGrantsは補助対象地域が構造化されている（複数は「 / 」区切り）
+        region = item.get("region") or ""
+        return any(a in region for a in ALLOWED_COMPANY_REGIONS)
+    text = " ".join(filter(None, [item.get("title"), item.get("summary")]))
+    for pat in RESTRICT_PATTERNS:
+        for m in pat.finditer(text):
+            seg = m.group(1)
+            if not any(a in seg for a in ("東京", "新宿", "福岡", "全国", "47都道府県")):
+                return False
+    return True
+
 
 def event_fits(item: dict) -> bool:
     """展示会・商談会がJAPON!SMの商材に合うかをタイトル・タグで判定する。"""
@@ -118,7 +147,7 @@ def run() -> dict:
 
     raw = load_raw_items()
     seen_ids = set()
-    kept, dropped_past, dropped_score, dropped_offcat = [], 0, 0, 0
+    kept, dropped_past, dropped_score, dropped_offcat, dropped_region = [], 0, 0, 0, 0
 
     for item in raw:
         if item["id"] in seen_ids:
@@ -135,6 +164,10 @@ def run() -> dict:
 
         if not event_fits(item):
             dropped_offcat += 1
+            continue
+
+        if not region_allowed(item):
+            dropped_region += 1
             continue
 
         score, reasons = score_item(item)
@@ -166,7 +199,8 @@ def run() -> dict:
         f.write(";\n")
 
     print(f"  [merge] 入力{len(raw)}件 → 掲載{len(kept)}件 "
-          f"(締切超過 {dropped_past} / 業種違い {dropped_offcat} / スコア未満 {dropped_score})")
+          f"(締切超過 {dropped_past} / 業種違い {dropped_offcat} / "
+          f"地域限定 {dropped_region} / スコア未満 {dropped_score})")
     return data
 
 

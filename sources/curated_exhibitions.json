@@ -47,6 +47,36 @@
       "verified_on": "2026-07-03"
     },
     {
+      "slug": "tetete-2026-09",
+      "category": "matching",
+      "title": "ててて商談会 2026.9",
+      "organizer": "ててて協働組合",
+      "url": "https://tetete-show.jp/",
+      "region": "東京都",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-04",
+      "deadline": null,
+      "location": "スパイラルホール（東京・青山）",
+      "tags": ["BtoB", "クラフト", "工芸", "雑貨"],
+      "summary": "小規模ものづくりメーカーとショップバイヤーをつなぐクラフト特化の商談会。※今回の出展応募は締切済み。次回（例年2月・9月開催）の募集時期は公式サイトで確認してください。",
+      "verified_on": "2026-07-04"
+    },
+    {
+      "slug": "dainipponichi-2026-09",
+      "category": "matching",
+      "title": "合同展示会「大日本市」2026年9月展",
+      "organizer": "中川政七商店",
+      "url": "https://www.dainipponichi.jp/shop/pages/exhibitions.aspx",
+      "region": "東京都",
+      "start_date": "2026-09-02",
+      "end_date": "2026-09-04",
+      "deadline": null,
+      "location": "TFTホール（東京・有明）",
+      "tags": ["BtoB", "工芸", "日本のものづくり", "雑貨"],
+      "summary": "中川政七商店が主催する、工芸を中心としたものづくりブランドの合同展示会（バイヤー向け）。出展ブランド募集は例年3月頃開始。日本の工芸・雑貨バイヤーとの接点として親和性が高いです。",
+      "verified_on": "2026-07-04"
+    },
+    {
       "slug": "cosme-week-tokyo-2027",
       "category": "exhibition",
       "title": "COSME Week【東京】2027（[国際]化粧品展 ほか）",

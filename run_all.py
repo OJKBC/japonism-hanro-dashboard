@@ -13,6 +13,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 COLLECTORS = [
     ("jgrants", "collectors.fetch_subsidies"),
     ("jetro", "collectors.fetch_jetro"),
+    ("tokyo_cci", "collectors.fetch_cci"),
+    ("tokyo_kosha", "collectors.fetch_kosha"),
     ("curated", "collectors.fetch_curated"),
     ("manual", "collectors.fetch_manual"),
 ]

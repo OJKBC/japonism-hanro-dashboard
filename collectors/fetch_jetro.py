@@ -75,7 +75,7 @@ def _category(title: str) -> str:
 
 def fetch_tradefair_events(interval: float) -> list[dict]:
     res = common.http_get(EVENTS_URL, interval=interval)
-    soup = BeautifulSoup(res.text, "html.parser")
+    soup = BeautifulSoup(res.content, "html.parser")
     items = []
     for tr in soup.find_all("tr"):
         link = tr.find("a", href=re.compile(r"^/events/"))
@@ -114,7 +114,7 @@ def fetch_tradefair_events(interval: float) -> list[dict]:
 
 def fetch_support_list(interval: float) -> list[dict]:
     res = common.http_get(LIST_URL, interval=interval)
-    soup = BeautifulSoup(res.text, "html.parser")
+    soup = BeautifulSoup(res.content, "html.parser")
     today = common.now_jst().strftime("%Y-%m-%d")
     items = []
     for tr in soup.find_all("tr"):
