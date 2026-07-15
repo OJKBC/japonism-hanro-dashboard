@@ -35,6 +35,13 @@
     return prefs.some(function (p) { return text.indexOf(p) !== -1; });
   }
 
+  function isNew(item) {
+    // first_seen（初回掲載日）が7日以内なら新着扱い
+    if (!item.first_seen) return false;
+    var days = -daysUntil(item.first_seen);
+    return days >= 0 && days <= 7;
+  }
+
   function daysUntil(dateStr) {
     if (!dateStr) return null;
     var now = new Date();
@@ -102,9 +109,11 @@
       if (item.organizer) metas.push("<div><dt>実施</dt><dd>" + esc(item.organizer) + "</dd></div>");
       metas.push("<div><dt>適合度</dt><dd><span class=\"score\">" + stars(item.match_score) + "</span></dd></div>");
 
+      var newBadge = isNew(item) ? '<span class="badge-new">新着</span>' : "";
       return '<article class="card ' + cat + '">' +
         '<div class="card-top">' +
           '<span class="badge ' + cat + '">' + (CATEGORY_LABEL[item.category] || "その他") + "</span>" +
+          newBadge +
           '<span class="deadline">' + deadlineHtml(item) + "</span>" +
         "</div>" +
         "<h2><a href=\"" + esc(item.url) + '" target="_blank" rel="noopener">' +

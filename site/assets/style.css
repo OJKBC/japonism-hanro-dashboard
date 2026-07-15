@@ -145,6 +145,15 @@ main {
 .badge.cat-exhibition { background: var(--vermilion); }
 .badge.cat-matching { background: #8a6d1d; }
 
+.badge-new {
+  font-size: 11px;
+  letter-spacing: .08em;
+  padding: 2px 9px;
+  color: #fff;
+  background: var(--vermilion);
+  font-weight: 700;
+}
+
 .deadline {
   font-size: 12px;
   margin-left: auto;

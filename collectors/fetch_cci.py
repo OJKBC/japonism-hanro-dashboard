@@ -21,14 +21,17 @@ from bs4 import BeautifulSoup
 from collectors import common
 
 SOURCE = "tokyo_cci"
+# canmati_flg（商談会フラグ）は外し、受付中の全イベントから KEEP_RE で拾う
+# （小さい商談会・交流会も広く含めるため。SPEC_CHANGES.md §15参照）
 LIST_URL = ("https://myevent.tokyo-cci.or.jp/tile.php"
             "?searching_name=&kaisai_day_s=&kaisai_day_e=&entry_status2=2"
-            "&canmati_flg=1&field=kaisai_day_s&sort=asc"
+            "&canmati_flg=&field=kaisai_day_s&sort=asc"
             "&search_syurui=000000000000000"
             "&search_category_genre=000000000000000000000000000000&recommend=")
 DETAIL_URL = "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id={}"
 
-KEEP_RE = re.compile(r"商談|マッチング|交流会|展示会|フェア|バイヤー|見本市")
+KEEP_RE = re.compile(r"商談|マッチング|交流会|展示会|フェア|バイヤー|見本市"
+                     r"|販路|ビジネスチャンス|即売|物産|マルシェ")
 # 販路につながらない交流イベント・社内向けイベントのノイズを除外
 SKIP_RE = re.compile(r"ゴルフ|就職|採用|人材確保|職場体験|面談会|視察会|女性活躍"
                      r"|懇親会|ピッチ|カクテル|戦略会議")

@@ -52,10 +52,11 @@ EVENT_OFF_WORDS_JA = [
     "養老", "シルバー産業", "銀髪", "介護",
     "繊維", "ICT", "ソフトウェア", "コンテンツ", "アニメ", "ゲーム",
     "航空", "宇宙", "エネルギー",
+    "宝石", "真珠", "ジュエリー", "ダイヤモンド",
 ]
 EVENT_OFF_WORDS_EN = [  # 英字タイトル用（小文字部分一致）
     "food", "halal", "anime", "steam", "biofach", "bio-europe", "bio europe",
-    "medica", "electronica",
+    "medica", "electronica", "diamond", "gem & ", "pearl", "jewel",
 ]
 EVENT_OFF_EXEMPT_SOURCES = {"manual", "curated"}
 
@@ -64,6 +65,13 @@ EVENT_OFF_EXEMPT_SOURCES = {"manual", "curated"}
 # 開催地が他県・海外でも、応募企業を限定しないものは掲載対象。
 ALLOWED_COMPANY_REGIONS = ("全国", "東京", "福岡", "海外",
                            "関東・甲信越", "九州・沖縄")
+# 本社が東京都新宿区のため、東京23区の区内限定案件は「東京扱い」で掲載する
+TOKYO_WARDS = {
+    "千代田区", "中央区", "港区", "新宿区", "文京区", "台東区", "墨田区",
+    "江東区", "品川区", "目黒区", "大田区", "世田谷区", "渋谷区", "中野区",
+    "杉並区", "豊島区", "北区", "荒川区", "板橋区", "練馬区", "足立区",
+    "葛飾区", "江戸川区",
+}
 RESTRICT_PATTERNS = [
     re.compile(r"([一-龥]{1,4}(?:県|府|都|道))産"),                       # ●●県産
     re.compile(r"([一-龥]{1,4}(?:県|府|都|市|区))内(?:の)?(?:会員)?(?:中小)?(?:企業|事業者)"),
@@ -84,6 +92,8 @@ def region_allowed(item: dict) -> bool:
     for pat in RESTRICT_PATTERNS:
         for m in pat.finditer(text):
             seg = m.group(1)
+            if seg in TOKYO_WARDS:  # 東京23区は本社所在地として掲載
+                continue
             if not any(a in seg for a in ("東京", "新宿", "福岡", "全国", "47都道府県")):
                 return False
     return True
@@ -180,9 +190,21 @@ def run() -> dict:
         out["match_reasons"] = reasons
         kept.append(out)
 
-    # 締切が近い順（締切なしは最後）→ スコア降順
-    kept.sort(key=lambda x: (x.get("deadline") or "9999-12-31",
+    # first_seen（初回発見日）を記録・付与する。
+    # 「サイトに新しく載った順」で並べるための基準。初回はその日の日付になる。
+    first_seen = common.load_cache("first_seen")
+    today_iso = common.now_jst().strftime("%Y-%m-%d")
+    for it in kept:
+        first_seen.setdefault(it["id"], today_iso)
+        it["first_seen"] = first_seen[it["id"]]
+    common.save_cache("first_seen", first_seen)
+
+    # サイトに新しく載った順（first_seen 降順）。
+    # 同じ日に載った案件どうしは、締切・開催が近い順→スコア降順で並べる。
+    kept.sort(key=lambda x: (x.get("deadline") or x.get("start_date")
+                             or x.get("end_date") or "9999-12-31",
                              -x["match_score"]))
+    kept.sort(key=lambda x: x.get("first_seen") or "", reverse=True)
 
     data = {
         "updated_at": common.now_jst().isoformat(timespec="seconds"),
