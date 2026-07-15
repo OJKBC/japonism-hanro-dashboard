@@ -53,6 +53,14 @@ py -3 run_all.py          # データ収集 → site/data/data.json 更新
 （検索エンジンには載らないよう noindex 設定済み）。
 閲覧制限が必要になったら Cloudflare Pages + Access への移行を検討してください。
 
+## 「今すぐ最新化する」ボタン（任意）
+
+毎朝6時の自動更新に加え、サイト上部のボタンでその場で最新化できます。
+Cloudflare Worker（無料）を中継に使う構成で、セットアップ手順は
+[SETUP_UPDATE_BUTTON.md](SETUP_UPDATE_BUTTON.md) を参照してください。
+Worker URL を `site/data/config.js` の `updateEndpoint` に設定すると有効になります
+（未設定の間はボタンは表示されません）。
+
 ## 手動で案件を追加する
 
 `manual/manual_items.csv` に1行追加してプッシュするだけです（列: 種別/名称/URL/開催日/場所/申込締切/地域/メモ）。

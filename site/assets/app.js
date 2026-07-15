@@ -151,7 +151,33 @@
       state.deadlineOnly = e.target.checked;
       render();
     });
+    setupRefresh();
     render();
+  }
+
+  function setupRefresh() {
+    var endpoint = (window.__CONFIG__ || {}).updateEndpoint;
+    var btn = document.getElementById("refresh-btn");
+    var status = document.getElementById("refresh-status");
+    if (!endpoint || !btn) return;
+    btn.hidden = false;
+
+    btn.addEventListener("click", function () {
+      btn.disabled = true;
+      status.textContent = "更新を開始しています…";
+      status.className = "refresh-status busy";
+      fetch(endpoint, { method: "POST" })
+        .then(function (r) {
+          if (!r.ok) throw new Error("status " + r.status);
+          status.textContent = "更新を開始しました。2〜4分後にこのページを再読み込みしてください。";
+          status.className = "refresh-status ok";
+        })
+        .catch(function () {
+          status.textContent = "更新の開始に失敗しました。少し待って再度お試しください。";
+          status.className = "refresh-status err";
+          btn.disabled = false;
+        });
+    });
   }
 
   if (window.__DATA__) {
