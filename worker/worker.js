@@ -1,21 +1,47 @@
-// Cloudflare Worker: サイトの「今すぐ最新化する」ボタンから呼ばれ、
-// GitHub Actions の収集ワークフロー（update.yml）を起動する中継。
+// Cloudflare Worker: 2つの役割を持つ。
+//  (1) fetch  … サイトの「今すぐ最新化する」ボタンから呼ばれ、収集ワークフローを起動
+//  (2) scheduled … Cloudflare Cron Trigger により毎朝6時(JST)に定時起動
+//      （GitHubの標準スケジュールは時刻がルーズで数時間遅れるため、こちらで正確に回す）
 //
 // 認証トークン（GitHub PAT）は Worker のシークレット GH_TOKEN に保存し、
 // サイト側には一切出さない（公開サイトでも安全）。
 //
 // 設定するシークレット/変数（Cloudflareダッシュボード → Settings → Variables）:
-//   GH_TOKEN  … GitHubのFine-grained PAT（対象リポジトリのActions: Read and write）
+//   GH_TOKEN     … GitHubのFine-grained PAT（対象リポジトリのActions: Read and write）
 //   ALLOW_ORIGIN … 許可するサイトのURL（例: https://ojkbc.github.io）
 //
-// リポジトリ/ワークフローは下記の定数を必要に応じて変更してください。
+// 定時実行の時刻は Cloudflare の Cron Triggers で設定する（UTCで指定）:
+//   0 21 * * *  = 毎日 21:00 UTC = 06:00 JST
 
 const REPO = "OJKBC/japonism-hanro-dashboard";
 const WORKFLOW = "update.yml";
 const BRANCH = "master";
 const COOLDOWN_SEC = 90; // 連打対策: この秒数以内の再起動は無視する
 
+async function triggerWorkflow(env) {
+  return fetch(
+    `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
+    {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${env.GH_TOKEN}`,
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "japonism-update-button",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ ref: BRANCH }),
+    }
+  );
+}
+
 export default {
+  // 毎朝6時(JST)の定時実行。Cloudflare Cron Trigger から呼ばれる。
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(triggerWorkflow(env));
+  },
+
+  // 「今すぐ最新化する」ボタンからのリクエスト。
   async fetch(request, env) {
     const allowOrigin = env.ALLOW_ORIGIN || "*";
     const cors = {
@@ -40,20 +66,7 @@ export default {
         message: "直前に更新を実行済みです。数分お待ちください。" }, 200, cors);
     }
 
-    const res = await fetch(
-      `https://api.github.com/repos/${REPO}/actions/workflows/${WORKFLOW}/dispatches`,
-      {
-        method: "POST",
-        headers: {
-          "Authorization": `Bearer ${env.GH_TOKEN}`,
-          "Accept": "application/vnd.github+json",
-          "X-GitHub-Api-Version": "2022-11-28",
-          "User-Agent": "japonism-update-button",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ ref: BRANCH }),
-      }
-    );
+    const res = await triggerWorkflow(env);
 
     if (res.status === 204) {
       await cache.put(lockUrl, new Response("1", {

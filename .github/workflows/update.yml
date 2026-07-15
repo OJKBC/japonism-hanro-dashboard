@@ -2,7 +2,10 @@ name: データ更新とサイト公開
 
 on:
   schedule:
-    - cron: "0 21 * * *"  # UTC 21:00 = JST 06:00
+    # GitHubのスケジュールは時刻が不安定（数時間遅延・混雑時スキップ）なので、
+    # 正確な毎朝6時は Cloudflare Worker の Cron Trigger 側で回す。これは予備。
+    # :00は最も混雑するため分をずらしている。
+    - cron: "23 21 * * *"  # UTC 21:23 ≒ JST 06:23（予備）
   workflow_dispatch:
   push:
     branches: [master, main]
