@@ -1,7 +1,70 @@
 {
  "source": "jetro",
- "fetched_at": "2026-07-18T07:09:20+09:00",
+ "fetched_at": "2026-07-19T07:10:32+09:00",
  "items": [
+  {
+   "id": "jetro:/events/afb/a481de1f3d126b48.html",
+   "category": "matching",
+   "title": "商社マッチング in東京（農水産物・食品分野）",
+   "organizer": "JETRO（日本貿易振興機構）",
+   "url": "https://www.jetro.go.jp/events/afb/a481de1f3d126b48.html",
+   "region": "東京都",
+   "start_date": "2026-11-12",
+   "end_date": "2026-11-13",
+   "deadline": null,
+   "location": "東京",
+   "amount": null,
+   "tags": [
+    "展示会・商談会"
+   ],
+   "summary": "受付状況: 申し込み受付中",
+   "status": "open",
+   "source": "jetro",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
+   "_match_text": "商社マッチング in東京（農水産物・食品分野） 展示会・商談会 東京 2026年11月12日 ～2026年11月13日"
+  },
+  {
+   "id": "jetro:/events/ibr/16d0439fe82ca1c9.html",
+   "category": "matching",
+   "title": "【商社募集】国内輸出商社商談会 in 茨城（食品）",
+   "organizer": "JETRO（日本貿易振興機構）",
+   "url": "https://www.jetro.go.jp/events/ibr/16d0439fe82ca1c9.html",
+   "region": "海外",
+   "start_date": "2026-10-22",
+   "end_date": "2026-10-23",
+   "deadline": null,
+   "location": "水戸",
+   "amount": null,
+   "tags": [
+    "展示会・商談会"
+   ],
+   "summary": "受付状況: 申し込み受付中",
+   "status": "open",
+   "source": "jetro",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
+   "_match_text": "【商社募集】国内輸出商社商談会 in 茨城（食品） 展示会・商談会 水戸 2026年10月22日 ～2026年10月23日"
+  },
+  {
+   "id": "jetro:/events/afb/eba952f28484c7d5.html",
+   "category": "matching",
+   "title": "2026年度 ジェトロ食品輸出商談会（東京）",
+   "organizer": "JETRO（日本貿易振興機構）",
+   "url": "https://www.jetro.go.jp/events/afb/eba952f28484c7d5.html",
+   "region": "東京都",
+   "start_date": "2026-11-12",
+   "end_date": "2026-11-13",
+   "deadline": null,
+   "location": "東京",
+   "amount": null,
+   "tags": [
+    "展示会・商談会"
+   ],
+   "summary": "受付状況: 申し込み受付中",
+   "status": "open",
+   "source": "jetro",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
+   "_match_text": "2026年度 ジェトロ食品輸出商談会（東京） 展示会・商談会 東京 2026年11月12日 ～2026年11月13日"
+  },
   {
    "id": "jetro:/events/odc/98b5dc2c8ebf0e64.html",
    "category": "matching",
@@ -21,7 +84,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "BIO-Europe 2026 展示会・商談会 ライブ配信あり ドイツ・ケルン 現地会場：11月9日（月曜）～11日（水曜）、オンライン：11月17日（火曜）～18日（水曜）"
   },
   {
@@ -42,7 +105,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "「ラゴス国際見本市2026」ジャパン・パビリオン 展示会・商談会 ナイジェリア・ラゴス 2026年11月06日 ～2026年11月15日"
   },
   {
@@ -63,7 +126,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "米国・ボストン「Seafood Expo North America 2027」ジャパンパビリオン 展示会・商談会 米国・ボストン 2027年03月07日 ～2027年03月09日"
   },
   {
@@ -85,7 +148,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "2026年度カンボジアSNSマーケティングプロジェクト（食品分野）（ASEAN越境EC販路開拓事業） 展示会・商談会 オンライン開催 オンライン開催 2026年09月07日 ～2027年03月31日"
   },
   {
@@ -106,7 +169,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "【福島県企業限定】県産品の輸出を応援！国内商社との食品輸出商談会 展示会・商談会 郡山 2026年09月09日"
   },
   {
@@ -127,30 +190,8 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "【事業者募集】令和8年度 国内輸出商社商談会 in青森 展示会・商談会 青森 2026年09月17日"
-  },
-  {
-   "id": "jetro:/events/pcd/4ee60482da78e798.html",
-   "category": "matching",
-   "title": "第21回中国（大連）国際高齢者産業博覧会",
-   "organizer": "JETRO（日本貿易振興機構）",
-   "url": "https://www.jetro.go.jp/events/pcd/4ee60482da78e798.html",
-   "region": "海外",
-   "start_date": "2026-09-04",
-   "end_date": "2026-09-06",
-   "deadline": null,
-   "location": "中国・大連",
-   "amount": null,
-   "tags": [
-    "展示会・商談会",
-    "初心者向け"
-   ],
-   "summary": "受付状況: 申し込み受付中",
-   "status": "open",
-   "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
-   "_match_text": "第21回中国（大連）国際高齢者産業博覧会 展示会・商談会 初心者向け 中国・大連 2026年09月04日 ～2026年09月06日"
   },
   {
    "id": "jetro:/events/osd/bcaae114a6cd79ea.html",
@@ -170,29 +211,8 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "【ジェトロ主催】第1回 関西スタートアップコミュニティ勉強会「ゼロから始める海外展開ターゲット」 展示会・商談会 大阪 2026年07月30日"
-  },
-  {
-   "id": "jetro:/events/afb/eba952f28484c7d5.html",
-   "category": "matching",
-   "title": "2026年度 ジェトロ食品輸出商談会（東京）",
-   "organizer": "JETRO（日本貿易振興機構）",
-   "url": "https://www.jetro.go.jp/events/afb/eba952f28484c7d5.html",
-   "region": "東京都",
-   "start_date": "2026-11-12",
-   "end_date": "2026-11-13",
-   "deadline": null,
-   "location": "東京",
-   "amount": null,
-   "tags": [
-    "展示会・商談会"
-   ],
-   "summary": "受付状況: 申し込み受付中",
-   "status": "open",
-   "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
-   "_match_text": "2026年度 ジェトロ食品輸出商談会（東京） 展示会・商談会 東京 2026年11月12日 ～2026年11月13日"
   },
   {
    "id": "jetro:/events/sap/1ca9ebe05a08a3b0.html",
@@ -212,7 +232,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "ジェトロ商社マッチング北海道（帯広）2026年度 展示会・商談会 北海道 2026年09月16日"
   },
   {
@@ -233,7 +253,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "ジェトロ商社マッチング北海道（釧路根室）2026年度 展示会・商談会 北海道 2026年09月15日"
   },
   {
@@ -255,7 +275,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "アルバニア・コソボ・北マケドニアビジネスミッション 展示会・商談会 海外現地視察(ミッション) アルバニア・ティラナ、コソボ・プリシュティナ、北マケドニア・スコピエ 2026年11月15日 ～2026年11月20日"
   },
   {
@@ -276,7 +296,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "「Hong Kong International Diamond, Gem & Pearl Show2027」ジャパンパールパビリオンにおける商談支援 展示会・商談会 香港 2027年03月02日 ～2027年03月06日"
   },
   {
@@ -298,7 +318,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "「タイヘルスケア・ウェルネス、ビジネスマッチング」第1回 医療機器・医療テック分野 展示会・商談会 ライブ配信あり タイ・バンコク / オンライン開催 2026年08月01日 ～2026年09月30日"
   },
   {
@@ -320,29 +340,8 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "スリナムビジネス環境視察・商談ミッション 展示会・商談会 海外現地視察(ミッション) スリナム・パラマリボ 2026年10月20日 ～2026年10月22日"
-  },
-  {
-   "id": "jetro:/events/dnb/4b840cdcee788781.html",
-   "category": "matching",
-   "title": "第9回 中国国際輸入博覧会（CIIE）JAPAN MALLブース",
-   "organizer": "JETRO（日本貿易振興機構）",
-   "url": "https://www.jetro.go.jp/events/dnb/4b840cdcee788781.html",
-   "region": "海外",
-   "start_date": "2026-11-05",
-   "end_date": "2026-11-10",
-   "deadline": null,
-   "location": "中国・上海",
-   "amount": null,
-   "tags": [
-    "展示会・商談会"
-   ],
-   "summary": "受付状況: 申し込み受付中",
-   "status": "open",
-   "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
-   "_match_text": "第9回 中国国際輸入博覧会（CIIE）JAPAN MALLブース 展示会・商談会 中国・上海 2026年11月05日 ～2026年11月10日"
   },
   {
    "id": "jetro:/events/mak/0ae92aa8683790c6.html",
@@ -363,7 +362,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "マレーシア・クアラルンプール「47都道府県フェア」テストマーケティング（九州地域、関西地域） 展示会・商談会 初心者向け マレーシア・クアラルンプール （A) 九州地域（飲食店：2026年7月20日～2026年8月21日／小売店：2026年8月10日～10月16日）、（B) 関西地域（飲食店：2026年8月31日～11月20日／小売店：2026年10月19日～12月31日）"
   },
   {
@@ -384,50 +383,8 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "ジェトロ食品輸出商談会 in広島 展示会・商談会 広島、島根、鳥取、愛媛 2026年11月10日"
-  },
-  {
-   "id": "jetro:/events/afb/a481de1f3d126b48.html",
-   "category": "matching",
-   "title": "商社マッチング in東京（農水産物・食品分野）",
-   "organizer": "JETRO（日本貿易振興機構）",
-   "url": "https://www.jetro.go.jp/events/afb/a481de1f3d126b48.html",
-   "region": "東京都",
-   "start_date": "2026-11-12",
-   "end_date": "2026-11-13",
-   "deadline": null,
-   "location": "東京",
-   "amount": null,
-   "tags": [
-    "展示会・商談会"
-   ],
-   "summary": "受付状況: 申し込み受付中",
-   "status": "open",
-   "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
-   "_match_text": "商社マッチング in東京（農水産物・食品分野） 展示会・商談会 東京 2026年11月12日 ～2026年11月13日"
-  },
-  {
-   "id": "jetro:/events/afb/19956925f42fbb24.html",
-   "category": "matching",
-   "title": "ドイツ・ニュルンベルク「BIOFACH 2027」ジャパンパビリオン",
-   "organizer": "JETRO（日本貿易振興機構）",
-   "url": "https://www.jetro.go.jp/events/afb/19956925f42fbb24.html",
-   "region": "海外",
-   "start_date": "2027-02-16",
-   "end_date": "2027-02-19",
-   "deadline": null,
-   "location": "ドイツ・ニュルンベルク",
-   "amount": null,
-   "tags": [
-    "展示会・商談会"
-   ],
-   "summary": "受付状況: 申し込み受付中",
-   "status": "open",
-   "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
-   "_match_text": "ドイツ・ニュルンベルク「BIOFACH 2027」ジャパンパビリオン 展示会・商談会 ドイツ・ニュルンベルク 2027年02月16日 ～2027年02月19日"
   },
   {
    "id": "jetro:/events/hmm/f71b30f5838d6f09.html",
@@ -449,7 +406,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "2026年度【Central Japan】グローバル展開支援に係るメンタリング 展示会・商談会 相談会 オンライン開催 オンライン開催 2026年05月11日 ～2027年02月26日"
   },
   {
@@ -470,7 +427,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "【2026年度JAPAN MALL事業連携事業】「中国消費者向け販促・PRイベント」出品者募集 展示会・商談会 中国・各都市 2026年05月01日 ～2027年03月10日"
   },
   {
@@ -492,7 +449,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "2026年度Steam日本特集ページ：MADE IN JAPAN COLLECTION 展示会・商談会 オンライン開催 オンライン開催／英国・ロンドン／ドイツ・ケルン他 2026年07月17日 ～2027年03月31日"
   },
   {
@@ -514,7 +471,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:14+09:00",
+   "fetched_at": "2026-07-19T07:10:26+09:00",
    "_match_text": "2026年度ものづくり企業向けプラットフォーム「VirtualExpo」でのグローバルマーケティング支援 ―世界のバイヤーにアプローチ！― 展示会・商談会 オンライン開催 世界各国・地域（登録バイヤーの50％以上が欧州） 2026年04月01日 ～2027年03月31日"
   },
   {
@@ -530,14 +487,14 @@
    "location": "フランス（パリ）",
    "amount": null,
    "tags": [
-    "農林水産物・食品",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "農林水産物・食品"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年4月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "SIAL Paris 2026 農林水産物・食品 農林水産物・食品 農林水産物・食品 フランス（パリ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -553,14 +510,14 @@
    "location": "フランス（リヨン）",
    "amount": null,
    "tags": [
-    "農林水産物・食品",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "農林水産物・食品"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年4月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Sirha 2027 農林水産物・食品 農林水産物・食品 農林水産物・食品 フランス（リヨン） 公式サイト 海外 輸出 出展"
   },
   {
@@ -576,14 +533,14 @@
    "location": "ドイツ（ニュルンベル）",
    "amount": null,
    "tags": [
-    "農林水産物・食品",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "農林水産物・食品"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年6～7月頃",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "BIOFACH 2027 農林水産物・食品 農林水産物・食品 農林水産物・食品 ドイツ（ニュルンベル） 公式サイト 海外 輸出 出展"
   },
   {
@@ -599,14 +556,14 @@
    "location": "米国（アナハイム）",
    "amount": null,
    "tags": [
-    "農林水産物・食品",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "農林水産物・食品"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年5月頃",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Natural Products Expo West 2027 農林水産物・食品 農林水産物・食品 農林水産物・食品 米国（アナハイム） 公式サイト 海外 輸出 出展"
   },
   {
@@ -622,14 +579,14 @@
    "location": "米国（ボストン）",
    "amount": null,
    "tags": [
-    "農林水産物・食品",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "農林水産物・食品"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年7月頃",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Seafood Expo North America 2027 農林水産物・食品 農林水産物・食品 農林水産物・食品 米国（ボストン） 公式サイト 海外 輸出 出展"
   },
   {
@@ -645,14 +602,14 @@
    "location": "アラブ首長国連邦（ドバイ）",
    "amount": null,
    "tags": [
-    "農林水産物・食品",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "農林水産物・食品"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年8月頃",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Gulfood 2027 農林水産物・食品 農林水産物・食品 農林水産物・食品 アラブ首長国連邦（ドバイ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -668,14 +625,14 @@
    "location": "インド（ベンガルール）",
    "amount": null,
    "tags": [
+    "海外展開",
     "BtoB",
-    "機械・機器",
-    "海外展開"
+    "機械・機器"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年3月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "electronica India 2026 機械・機器 機械・機器 機械・機器 インド（ベンガルール） 公式サイト 海外 輸出 出展"
   },
   {
@@ -691,14 +648,14 @@
    "location": "アメリカ（シカゴ）",
    "amount": null,
    "tags": [
+    "海外展開",
     "BtoB",
-    "機械・機器",
-    "海外展開"
+    "機械・機器"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年3月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "IMTS 2026 機械・機器 機械・機器 機械・機器 アメリカ（シカゴ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -714,14 +671,14 @@
    "location": "ドイツ（ミュンヘン）",
    "amount": null,
    "tags": [
+    "海外展開",
     "BtoB",
-    "機械・機器",
-    "海外展開"
+    "機械・機器"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年3月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "electronica 2026 機械・機器 機械・機器 機械・機器 ドイツ（ミュンヘン） 公式サイト 海外 輸出 出展"
   },
   {
@@ -737,14 +694,14 @@
    "location": "チェコ（ブルノ）",
    "amount": null,
    "tags": [
+    "海外展開",
     "BtoB",
-    "機械・機器",
-    "海外展開"
+    "機械・機器"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年4月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "国際エンジニアリングフェア（MSV 2026） 機械・機器 機械・機器 機械・機器 チェコ（ブルノ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -760,14 +717,14 @@
    "location": "中国（香港）",
    "amount": null,
    "tags": [
-    "デザイン（日用品）",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "デザイン（日用品）"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年6月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Cosmoprof Asia Hong Kong デザイン（日用品） デザイン（日用品） デザイン（日用品） 中国（香港） 公式サイト 海外 輸出 出展"
   },
   {
@@ -783,14 +740,14 @@
    "location": "フランス（パリ）",
    "amount": null,
    "tags": [
-    "デザイン（日用品）",
+    "海外展開",
     "BtoB",
-    "海外展開"
+    "デザイン（日用品）"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年5月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Maison＆Objet Paris 2027年1月展 デザイン（日用品） デザイン（日用品） デザイン（日用品） フランス（パリ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -806,14 +763,14 @@
    "location": "サウジアラビア（リヤド）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年5月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Global Health Exhibition 2026 ライフサイエンス ライフサイエンス ライフサイエンス サウジアラビア（リヤド） 公式サイト 海外 輸出 出展"
   },
   {
@@ -829,14 +786,14 @@
    "location": "ドイツ（デュッセルドルフ）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年4月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "MEDICA 2026 ライフサイエンス ライフサイエンス ライフサイエンス ドイツ（デュッセルドルフ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -852,14 +809,14 @@
    "location": "UAE（ドバイ）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年8月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "WHX Dubai 2027 ライフサイエンス ライフサイエンス ライフサイエンス UAE（ドバイ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -875,14 +832,14 @@
    "location": "ドイツ（ケルン）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年7月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "BIO Europe 2026 ライフサイエンス ライフサイエンス ライフサイエンス ドイツ（ケルン） 公式サイト 海外 輸出 出展"
   },
   {
@@ -898,14 +855,14 @@
    "location": "中国（大連）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年6月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "中国（大連）国際高齢者産業博覧会 ライフサイエンス ライフサイエンス ライフサイエンス 中国（大連） - 海外 輸出 出展"
   },
   {
@@ -921,14 +878,14 @@
    "location": "中国（武漢）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年7月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "中国（武漢）銀髪経済博覧会 ライフサイエンス ライフサイエンス ライフサイエンス 中国（武漢） 公式サイト 海外 輸出 出展"
   },
   {
@@ -944,14 +901,14 @@
    "location": "中国（重慶）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年8月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "中国（重慶）老年産業博覧会 ライフサイエンス ライフサイエンス ライフサイエンス 中国（重慶） - 海外 輸出 出展"
   },
   {
@@ -967,14 +924,14 @@
    "location": "中国（広州）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年9月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "中国国際シルバー産業博覧会 ライフサイエンス ライフサイエンス ライフサイエンス 中国（広州） 公式サイト 海外 輸出 出展"
   },
   {
@@ -990,14 +947,14 @@
    "location": "中国（成都）",
    "amount": null,
    "tags": [
+    "ライフサイエンス",
     "BtoB",
-    "海外展開",
-    "ライフサイエンス"
+    "海外展開"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年12月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "成都国際養老服務業博覧会 ライフサイエンス ライフサイエンス ライフサイエンス 中国（成都） - 海外 輸出 出展"
   },
   {
@@ -1013,14 +970,14 @@
    "location": "イタリア（ミラノ）",
    "amount": null,
    "tags": [
+    "海外展開",
     "BtoB",
-    "ファッション・繊維",
-    "海外展開"
+    "ファッション・繊維"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年8月（予定）",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "Milano Unica 2028SS ファッション・繊維 ファッション・繊維 ファッション・繊維 イタリア（ミラノ） 公式サイト 海外 輸出 出展"
   },
   {
@@ -1036,14 +993,14 @@
    "location": "メキシコ（グアナファト）",
    "amount": null,
    "tags": [
+    "海外展開",
     "BtoB",
-    "機械・機器",
-    "海外展開"
+    "機械・機器"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年4月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "グアナファト・自動車サプライチェーンフォーラム2026 機械・機器 機械・機器 機械・機器 メキシコ（グアナファト） 公式サイト（スペイン語） 海外 輸出 出展"
   },
   {
@@ -1066,7 +1023,7 @@
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年4月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "ICTウィーク ウズベキスタン イノベーション イノベーション イノベーション ウズベキスタン（タシケント） 公式サイト 海外 輸出 出展"
   },
   {
@@ -1082,22 +1039,22 @@
    "location": "ナイジェリア（ラゴス）",
    "amount": null,
    "tags": [
-    "BtoB",
     "海外展開",
+    "BtoB",
     "消費財・ライフスタイル"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年6月（予定）",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:17+09:00",
+   "fetched_at": "2026-07-19T07:10:29+09:00",
    "_match_text": "ラゴス国際見本市 2026 消費財・ライフスタイル 消費財・ライフスタイル 消費財・ライフスタイル ナイジェリア（ラゴス） 公式サイト 海外 輸出 出展"
   },
   {
-   "id": "jetro:/events/ibr/16d0439fe82ca1c9.html",
-   "category": "matching",
-   "title": "【商社募集】国内輸出商社商談会 in 茨城（食品）",
+   "id": "jetro:/events/pcd/4ee60482da78e798.html",
+   "category": "exhibition",
+   "title": "第21回中国（大連）国際高齢者産業博覧会",
    "organizer": "JETRO（日本貿易振興機構）",
-   "url": "https://www.jetro.go.jp/events/ibr/16d0439fe82ca1c9.html",
+   "url": "https://www.jetro.go.jp/events/pcd/4ee60482da78e798.html",
    "region": "全国",
    "start_date": null,
    "end_date": null,
@@ -1110,8 +1067,8 @@
    "summary": "新着イベント（詳細はリンク先で確認してください）",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-07-18T07:09:20+09:00",
-   "_match_text": "【商社募集】国内輸出商社商談会 in 茨城（食品） 展示会・商談会"
+   "fetched_at": "2026-07-19T07:10:32+09:00",
+   "_match_text": "第21回中国（大連）国際高齢者産業博覧会 展示会・商談会"
   }
  ]
 }
