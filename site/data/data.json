@@ -1,7 +1,180 @@
 {
- "updated_at": "2026-11-24T14:21:49+09:00",
- "count": 78,
+ "updated_at": "2026-11-25T13:18:22+09:00",
+ "count": 84,
  "items": [
+  {
+   "id": "tokyo_cci:208053",
+   "category": "matching",
+   "title": "渋沢栄一と一万円札ゆかりの地 地域特産物産展",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208053",
+   "region": "東京都",
+   "start_date": "2026-12-09",
+   "end_date": null,
+   "deadline": null,
+   "location": "東京商工会議所 本部１階多目的スペース",
+   "amount": null,
+   "tags": [
+    "代表・経営者向け",
+    "役員・幹部向け",
+    "管理職向け",
+    "係長・主任向け",
+    "若手・新入社員向け"
+   ],
+   "summary": "リアル 無料 / 無料",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "tokyo_cci:208250",
+   "category": "matching",
+   "title": "【中野区内会員限定】2027年中野区経済四団体合同新年賀詞交歓会",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208250",
+   "region": "東京都",
+   "start_date": "2027-01-13",
+   "end_date": null,
+   "deadline": null,
+   "location": "京王プラザホテル　５階「コンコードボールルームE」",
+   "amount": null,
+   "tags": [
+    "代表・経営者向け",
+    "役員・幹部向け"
+   ],
+   "summary": "交流会 リアル 会員限定 / 会費　13,000円（1名様・税込10％）",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "tokyo_cci:207909",
+   "category": "matching",
+   "title": "【江東区内会員限定】2027年新年賀詞交歓会",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=207909",
+   "region": "東京都",
+   "start_date": "2027-01-15",
+   "end_date": null,
+   "deadline": null,
+   "location": "ホテルイースト２１東京　３階「永代の間」",
+   "amount": null,
+   "tags": [
+    "代表・経営者向け",
+    "役員・幹部向け",
+    "管理職向け"
+   ],
+   "summary": "交流会 リアル 会員限定 有料（会員優待） / お一人様　11,000円（消費税込）",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "tokyo_cci:207935",
+   "category": "matching",
+   "title": "【品川支部 ＜新入会員限定＞】2027年新年賀詞交歓会",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=207935",
+   "region": "東京都",
+   "start_date": "2027-01-21",
+   "end_date": null,
+   "deadline": null,
+   "location": "東京マリオットホテル 地下１階「ザ・ゴテンヤマ・ボールルーム」",
+   "amount": null,
+   "tags": [
+    "代表・経営者向け",
+    "役員・幹部向け"
+   ],
+   "summary": "交流会 リアル 会員限定 有料（会員優待） / 10,000円（税込）",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "tokyo_cci:208237",
+   "category": "matching",
+   "title": "【足立区内会員限定】2027年新年賀詞交歓会",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208237",
+   "region": "東京都",
+   "start_date": "2027-01-22",
+   "end_date": null,
+   "deadline": null,
+   "location": "浅草ビューホテル 4階「飛翔」",
+   "amount": null,
+   "tags": [
+    "代表・経営者向け",
+    "役員・幹部向け"
+   ],
+   "summary": "交流会 会員限定 / 12,000円（税込）",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "tokyo_cci:207752",
+   "category": "matching",
+   "title": "【千代田支部会員限定】2027年新年賀詞交歓会",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=207752",
+   "region": "東京都",
+   "start_date": "2027-01-28",
+   "end_date": null,
+   "deadline": null,
+   "location": "ザ・キャピトルホテル東急　１階「鳳凰」",
+   "amount": null,
+   "tags": [
+    "代表・経営者向け",
+    "役員・幹部向け"
+   ],
+   "summary": "交流会 リアル 会員限定 有料（会員優待） / 18,000円〈１名様・税込〉",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "tokyo_cci:208102",
+   "category": "matching",
+   "title": "老舗料亭「浅草 茶寮 一松」の女将に学ぶ会席の嗜み",
+   "organizer": "東京商工会議所",
+   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208102",
+   "region": "東京都",
+   "start_date": "2027-03-19",
+   "end_date": null,
+   "deadline": null,
+   "location": "浅草 茶寮 一松",
+   "amount": null,
+   "tags": [
+    "リーダーシップ・コミュニケーション",
+    "代表・経営者向け",
+    "役員・幹部向け"
+   ],
+   "summary": "交流会 会員限定 / 東商会員：10,000円/名（税込）",
+   "status": "open",
+   "source": "tokyo_cci",
+   "fetched_at": "2026-11-25T13:18:21+09:00",
+   "match_score": 2,
+   "match_reasons": [],
+   "first_seen": "2026-11-25"
+  },
   {
    "id": "jgrants:a0WfQ0000041oIDUAY",
    "category": "subsidy",
@@ -20,7 +193,7 @@
    "summary": "更なる企業の成長を目指す後継者が取り組む新規事業展開を支援します！！",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 7,
    "match_reasons": [
     "販路開拓",
@@ -50,7 +223,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 5,
    "match_reasons": [
     "販路開拓"
@@ -75,7 +248,7 @@
    "summary": "宿泊事業者の人手不足解消に向け、先進的・独創的な技術・ノウハウに基づき作成され、優れた省力効果を持つ機器・システム等の情報を宿泊事業者に分かりやすく提供するとともに、当該機器等の導入を支援します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 4,
    "match_reasons": [
     "観光",
@@ -102,7 +275,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -129,7 +302,7 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / 10,000円（1名様・税込）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-19"
@@ -137,7 +310,7 @@
   {
    "id": "tokyo_cci:207914",
    "category": "matching",
-   "title": "【江戸川区内会員限定】２０２７年新年賀詞交歓会",
+   "title": "【江戸川区内会員限定】2027年新年賀詞交歓会",
    "organizer": "東京商工会議所",
    "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=207914",
    "region": "東京都",
@@ -153,7 +326,7 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / 10,000円（1名様・税込10％）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-19"
@@ -161,7 +334,7 @@
   {
    "id": "tokyo_cci:207765",
    "category": "matching",
-   "title": "【板橋区内会員限定】新年賀詞交歓会",
+   "title": "【板橋区内会員限定】2027年新春賀詞交歓会",
    "organizer": "東京商工会議所",
    "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=207765",
    "region": "東京都",
@@ -177,7 +350,7 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / 12,000円（税込）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-18"
@@ -201,7 +374,7 @@
    "summary": "交流会 会員限定 有料（会員優待） / 15,000円",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-18"
@@ -225,7 +398,7 @@
    "summary": "相談会 リアル 会員限定 無料 / 無料",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:21+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-17"
@@ -249,7 +422,7 @@
    "summary": "交流会 講演会・シンポジウム リアル 無料 / 無料",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 5,
    "match_reasons": [
     "販路開拓"
@@ -259,7 +432,7 @@
   {
    "id": "tokyo_cci:208006",
    "category": "matching",
-   "title": "【台東区内会員限定】台東支部 新年賀詞交歓会",
+   "title": "【台東区内会員限定】2027年新春賀詞交歓会",
    "organizer": "東京商工会議所",
    "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208006",
    "region": "東京都",
@@ -275,7 +448,7 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / １０，０００円（税込/名）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-16"
@@ -283,7 +456,7 @@
   {
    "id": "tokyo_cci:208007",
    "category": "matching",
-   "title": "【台東区内 新入会員限定】台東支部 新年賀詞交歓会",
+   "title": "【台東区内＜新入会員限定＞】2027年新春賀詞交歓会",
    "organizer": "東京商工会議所",
    "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208007",
    "region": "東京都",
@@ -299,7 +472,7 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / １０，０００円（税込/名）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-15"
@@ -307,7 +480,7 @@
   {
    "id": "tokyo_cci:208167",
    "category": "matching",
-   "title": "【港支部】2027年新年賀詞交歓会",
+   "title": "【港区内会員限定】2027年新年賀詞交歓会",
    "organizer": "東京商工会議所",
    "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=208167",
    "region": "東京都",
@@ -323,7 +496,7 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / 一般会員：17,000円／お一人様（税込）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-11-14"
@@ -347,7 +520,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -377,7 +550,7 @@
    "summary": "交流会 視察会・見学会 リアル 会員限定 有料（会員優待） / 3,000円",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:12+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 5,
    "match_reasons": [
     "販路開拓"
@@ -402,7 +575,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 11,
    "match_reasons": [
     "展示会",
@@ -429,7 +602,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -456,7 +629,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
@@ -482,7 +655,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 11,
    "match_reasons": [
     "展示会",
@@ -509,7 +682,7 @@
    "summary": "小規模事業者持続化補助金＜創業型＞ 第４回受付締切",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 13,
    "match_reasons": [
     "販路開拓",
@@ -542,7 +715,7 @@
    "summary": "交流会 リアル 有料（会員優待） / 3,000円",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 5,
    "match_reasons": [
     "販路開拓"
@@ -567,7 +740,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -594,7 +767,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -621,7 +794,7 @@
    "summary": "中東情勢による原材料価格高騰の影響を受ける中小企業の原材料費の縮減や価格転嫁等に向けた取組を支援します",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 13,
    "match_reasons": [
     "販路開拓",
@@ -653,7 +826,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -680,7 +853,7 @@
    "summary": "中東情勢による原材料価格高騰の影響を受ける中小企業の原材料費の縮減や価格転嫁等に向けた取組を支援します",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 13,
    "match_reasons": [
     "販路開拓",
@@ -712,7 +885,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
@@ -742,7 +915,7 @@
    "summary": "交流会 講演会・シンポジウム リアル 無料 / 会員/非会員ともに無料",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-10-24"
@@ -766,7 +939,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 11,
    "match_reasons": [
     "販路開拓",
@@ -794,7 +967,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 14,
    "match_reasons": [
     "販路開拓",
@@ -822,7 +995,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -849,7 +1022,7 @@
    "summary": "東京都内の中小企業の観光関連事業者によるDXやデジタル化、新商品・サービス開発等を支援します！",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 8,
    "match_reasons": [
     "観光",
@@ -881,7 +1054,7 @@
    "summary": "交流会 リアル 会員限定 無料 / 無料",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 5,
    "match_reasons": [
     "販路開拓"
@@ -908,37 +1081,10 @@
    "summary": "交流会 リアル 会員限定 有料（会員優待） / 会員：7,700円/１社",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:13+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-10-14"
-  },
-  {
-   "id": "tokyo_cci:207803",
-   "category": "matching",
-   "title": "【中野区内事業所限定】11/24ＮＡＫＡＮＯビジネス交流会",
-   "organizer": "東京商工会議所",
-   "url": "https://myevent.tokyo-cci.or.jp/detail.php?event_kanri_id=207803",
-   "region": "東京都",
-   "start_date": "2026-11-24",
-   "end_date": null,
-   "deadline": null,
-   "location": "中野セントラルパークカンファレンス地下１階　ホールB",
-   "amount": null,
-   "tags": [
-    "販路開拓・営業",
-    "採用・人材育成",
-    "代表・経営者向け"
-   ],
-   "summary": "交流会 リアル 無料 / 無料",
-   "status": "open",
-   "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:12+09:00",
-   "match_score": 5,
-   "match_reasons": [
-    "販路開拓"
-   ],
-   "first_seen": "2026-10-09"
   },
   {
    "id": "tokyo_cci:207736",
@@ -962,7 +1108,7 @@
    "summary": "交流会 講演会・シンポジウム ハイブリッド（リアル／オンライン） 無料 / 無料",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:12+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 2,
    "match_reasons": [],
    "first_seen": "2026-10-02"
@@ -986,7 +1132,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -1015,7 +1161,7 @@
    "summary": "交流会 リアル 有料（会員優待） / 2,000円（税込）",
    "status": "open",
    "source": "tokyo_cci",
-   "fetched_at": "2026-11-19T11:39:12+09:00",
+   "fetched_at": "2026-11-25T13:18:20+09:00",
    "match_score": 5,
    "match_reasons": [
     "販路開拓"
@@ -1041,7 +1187,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -1068,7 +1214,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -1094,7 +1240,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -1121,7 +1267,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -1148,7 +1294,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
@@ -1178,7 +1324,7 @@
    "summary": "■目的・概要 市内商工業者の活性化を図り、宗像市の稼ぐ力を強化するため、新事業や販路開拓、生産性向上や人材不足・インバウンド観光客への対応のために市内事業者が行う事業活動に係る経費の一部を補助します。 ■補助対象者 中小企業者又は特定非営利活動法人であって、以下の要件をすべて満たす者 (1)宗像市内に事業所又は店舗を有し、市内で事業を行っていること (2)個",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 25,
    "match_reasons": [
     "販路開拓",
@@ -1216,7 +1362,7 @@
    "summary": "■目的・概要 宗像市の食材を活用した販路拡大・域内消費の促進による商工業の振興を図るため、市内の地域資源等を生かした特産品の開発、もしくは食関連イベント等の実施に係る経費の一部を補助します。 ■補助対象者 熱意を持って新しい地域特産品づくりや賑わいづくりに取り組む事業者であって、以下の要件をすべて満たす者 (1)宗像市内に事業所又は店舗を有し、市内で事業を行",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 12,
    "match_reasons": [
     "販路拡大",
@@ -1248,7 +1394,7 @@
    "summary": "■目的・概要 宗像市は「創業できる街」を目指し、宗像市商工会、市内金融機関、その他支援機関等と連携して、創業する方を応援しています。本補助金は、”宗業”(宗像で創業)する方の費用の一部を補助します。 ■補助対象者 次のいずれかであって、以下の要件を全て満たす者 (1)交付申請時と同年度に宗像市内で創業を予定している個人 (2)宗像市内で創業後、1年未満の個人",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 6,
    "match_reasons": [
     "観光",
@@ -1277,7 +1423,7 @@
    "summary": "観光産業の活性化を促進するため、観光関連業界団体等が行う生産性向上・新サービス開発、情報発信等の取組を支援します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 4,
    "match_reasons": [
     "観光",
@@ -1304,7 +1450,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
@@ -1332,7 +1478,7 @@
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年6月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:30+09:00",
+   "fetched_at": "2026-11-25T13:18:13+09:00",
    "match_score": 8,
    "match_reasons": [
     "出展",
@@ -1358,7 +1504,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -1386,7 +1532,7 @@
    "summary": "受付状況: 申し込み受付中",
    "status": "open",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:27+09:00",
+   "fetched_at": "2026-11-25T13:18:11+09:00",
    "match_score": 8,
    "match_reasons": [
     "展示会",
@@ -1413,7 +1559,7 @@
    "summary": "中⼭間地域において農家所得を確保するため、マーケットや消費者の動向把握、⽣産・加⼯・流通・販売の再編、国内外 の販路拡⼤に向けた販売戦略の検討等、地域の農業所得確保に向けた計画の策定と実践を⽀援します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路拡大",
@@ -1440,7 +1586,7 @@
    "summary": "東京都の課題解決につながる製品・サービスの販路開拓を支援します！",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 19,
    "match_reasons": [
     "販路開拓",
@@ -1477,7 +1623,7 @@
    "summary": "海外展開支援：FS調査用補助金",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 10,
    "match_reasons": [
     "販路拡大",
@@ -1507,7 +1653,7 @@
    "summary": "美容体験型観光提供事業者が、東京の高い美容技術を、外国人旅行者に向けた観光コンテンツとして活用する取組に対し、経費の一部を補助します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 3,
    "match_reasons": [
     "観光"
@@ -1534,7 +1680,7 @@
    "summary": "■目的・概要 本助成金は、自社ブランドによる海外販路拡大を目指すに当たり、進出予定国において出願され権利化された第三者の有する商標又はその類似商標（以下「類似商標等」という。）がビジネスの障害になっている東京都内の中小企業者等に対して、当該障害となっている商標の取消や無効化に要する行政手続き及びそれに関する行政訴訟（民事訴訟は含まれない）の経費、これらの手続",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 15,
    "match_reasons": [
     "販路拡大",
@@ -1567,7 +1713,7 @@
    "summary": "障害者等が東京の豊かな自然を楽しめる体験型観光を推進するため、都内自然体験型観光提供事業者に対して、障害者向け備品等の購入経費の一部を補助します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 3,
    "match_reasons": [
     "観光"
@@ -1593,7 +1739,7 @@
    "summary": "■目的・概要 市内の中小事業者の出店促進のため、キッチンカーを導入して移動販売に取り組む事業者を支援します。 ■根拠法令 久留米市キッチンカー導入事業費補助金交付要綱 久留米市補助金等交付規則 ■応募資格 当補助金は、次の全ての要件を満たす事業者を対象とします。 １ 久留米市内に事業所（本店、支店、営業所、事務所等）を有し、事業を実施している中小企業・個人事",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 15,
    "match_reasons": [
     "販路拡大",
@@ -1626,7 +1772,7 @@
    "summary": "■事業概要 本事業は、東京都（以下「都」という）と、海外展開を志向する都内のフィンテック企業が、海外で開催される展示会に共同出展するもの。都は、展示会への出展に必要となる費用を負担するとともに、海外当局や現地企業等との面談機会を提供し、フィンテック企業の海外展開を通じた事業拡大を後押しするもの。 ■展示会の概要 共同出展の対象となる海外展示会は以下の３展示会",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 12,
    "match_reasons": [
     "販路拡大",
@@ -1655,7 +1801,7 @@
    "summary": "■目的 本事業は、都内のフィンテック企業等の海外進出支援を行い、事業拡大を後押しすることを目的とする。 ■補助対象事業 本補助金の交付対象となる事業は、以下のいずれかに該当する取組とし、本事業の補助金の交付決定日以降で令和９年３月31日までに実施を予定しているものとする。 （１）フィジビリティ調査 ・フィンテック企業等が海外進出の実現可能性を検討するために行",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 12,
    "match_reasons": [
     "販路拡大",
@@ -1683,7 +1829,7 @@
    "summary": "■目的・概要 市内小規模事業者が、デジタル技術を活用した業務効率化や経営課題の解決に取り組む事業に係る経費の一部を支援します。 ■根拠法令 久留米市小規模事業者デジタル化支援補助金交付要綱 久留米市補助金等交付規則 ■応募資格 次の全ての要件を満たす小規模事業者（中小企業等経営強化法第２条第１項各号に該当する中小企業者であって、おおむね常時使用する従業員の数",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 9,
    "match_reasons": [
     "観光",
@@ -1714,7 +1860,7 @@
    "summary": "■目的・概要 久留米市は、市内中小企業者の賃上げ環境の整備を図ることを目的として、「先端設備等導入計画」の認定を受けた市内中小企業者が、当該計画に基づく設備投資を行う場合に、設備導入に係る経費の一部を助成します。 ■根拠法令 久留米市中小企業先端設備等導入支援補助金交付要綱 久留米市補助金等交付規則 ■応募資格 以下の全ての要件を満たす市内の中小企業、個人事",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 7,
    "match_reasons": [
     "観光",
@@ -1743,7 +1889,7 @@
    "summary": "■目的・概要 大雨等による浸水被害の防止又は軽減を図るため、市内の店舗、事務所、工場等への止水板の設置やその他の浸水対策のための工事に要する費用の一部を助成します。 ■根拠法令 久留米市中小企業止水板等設置事業費補助金交付要綱 久留米市補助金等交付規則 ■応募資格 補助金は、次の全ての要件を満たす事業者を対象とします。 １ 市内の建物等（店舗、事務所、工場等",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 9,
    "match_reasons": [
     "観光",
@@ -1768,14 +1914,14 @@
    "location": "フランス（パリ）",
    "amount": null,
    "tags": [
+    "デザイン（日用品）",
     "海外展開",
-    "BtoB",
-    "デザイン（日用品）"
+    "BtoB"
    ],
    "summary": "ジェトロ出展支援（ジャパンパビリオン等）。募集開始時期: 2026年5月",
    "status": "unknown",
    "source": "jetro",
-   "fetched_at": "2026-11-24T14:21:30+09:00",
+   "fetched_at": "2026-11-25T13:18:13+09:00",
    "match_score": 12,
    "match_reasons": [
     "出展",
@@ -1803,7 +1949,7 @@
    "summary": "東京都内の旅行業者が高齢者や障害者を受け入れるため、乗降用リフト装置付バスを貸切で手配し募集型企画旅行又は受注型企画旅行を催行した場合に、通常のバスの貸切バス料金と乗降用リフト装置付バスの貸切バス料金の差額について補助を行います。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 3,
    "match_reasons": [
     "観光"
@@ -1831,7 +1977,7 @@
    "summary": "日本最大級の化粧品総合展。[国際]化粧品展には化粧品・美容雑貨の最終製品が集まり、小売・EC・免税店等のバイヤーが来場。",
    "status": "open",
    "source": "curated",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 13,
    "match_reasons": [
     "免税",
@@ -1861,7 +2007,7 @@
    "summary": "飯塚市から世界へ！中小企業の海外販路開拓にかかる経費を最大10万円までサポート",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 19,
    "match_reasons": [
     "販路開拓",
@@ -1897,7 +2043,7 @@
    "summary": "特定の認定を受けた中小企業を支援！事業所の新増設に伴う固定資産税・都市計画税相当額を最大1億円補助します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 15,
    "match_reasons": [
     "販路拡大",
@@ -1933,7 +2079,7 @@
    "summary": "京都市内での本社・工場・開発拠点等の新増設を強力に支援！固定資産税・都市計画税相当額を最大1億円補助します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 13,
    "match_reasons": [
     "販路拡大",
@@ -1966,7 +2112,7 @@
    "summary": "企業の京都市への初進出を支援！オフィス賃料最大2,000万円、京都市内居住の社員等の人数に応じて最大5,000万円を補助します！",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 12,
    "match_reasons": [
     "販路拡大",
@@ -1999,7 +2145,7 @@
    "summary": "京都市への進出を検討する企業を支援！シェアオフィス等の利用料や交通費を最大50万円補助します。",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 12,
    "match_reasons": [
     "販路拡大",
@@ -2032,7 +2178,7 @@
    "summary": "■参照ホームページ Jグランツで本補助金の申請受付を行っておりません。申請手続き等の詳細については、以下HPをご確認ください。 https://www.city.tama.lg.jp/shisei/jigyosha/1012227/1012232/1014763.html ■目的・概要 市では、第6次多摩市総合計画において「つながり支え 認め合い いきいきと",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 6,
    "match_reasons": [
     "観光",
@@ -2062,7 +2208,7 @@
    "summary": "事業再構築補助金",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 10,
    "match_reasons": [
     "販路拡大",
@@ -2094,7 +2240,7 @@
    "summary": "事業再構築補助金",
    "status": "open",
    "source": "jgrants",
-   "fetched_at": "2026-11-24T14:21:23+09:00",
+   "fetched_at": "2026-11-25T13:18:07+09:00",
    "match_score": 10,
    "match_reasons": [
     "販路拡大",
@@ -2125,7 +2271,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 8,
    "match_reasons": [
     "販路開拓",
@@ -2152,7 +2298,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
@@ -2179,7 +2325,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
@@ -2206,7 +2352,7 @@
    "summary": "東京都中小企業振興公社の販路開拓・マッチング支援です。対象条件はリンク先で確認してください。",
    "status": "open",
    "source": "tokyo_kosha",
-   "fetched_at": "2026-11-24T14:21:49+09:00",
+   "fetched_at": "2026-11-25T13:18:22+09:00",
    "match_score": 6,
    "match_reasons": [
     "販路開拓",
